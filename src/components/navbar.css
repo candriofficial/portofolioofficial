@@ -1,0 +1,29 @@
+.navbar {
+  padding: 0.7rem 7% 0.5rem;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: #333333;
+  border-bottom: #050505;
+}
+
+.logo h1 {
+  font-size: 2rem;
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 3rem;
+  font-size: 1.2rem;
+}
