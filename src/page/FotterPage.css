@@ -22,13 +22,7 @@
 .footer-section h3, 
 .footer-section p, 
 .footer-bottom b {
-  margin-bottom: 10px;
-  width: fit-content;
-}
-
-.footer-section h3, 
-.footer-section p {
-  border-bottom: 1px solid;
+  margin-bottom: 10px; 
 }
 
 .social-icons {
@@ -36,6 +30,11 @@
   gap: 15px;
   font-size: 1.5rem;
   margin-top: 5px;
+}
+
+.social-icons a{
+  cursor: pointer;
+  color: #979696;
 }
 
 .footer-bottom {

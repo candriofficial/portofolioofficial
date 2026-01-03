@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa";
 import "../page/FotterPage.css";
 
 function FotterPage() {
@@ -24,6 +24,10 @@ function FotterPage() {
             >
               <FaLinkedin />
             </a>
+            <a href="https://www.tiktok.com/@candritechsystemai?_r=1&_t=ZS-92kXI4vh4U6" target="_blank" rel="noreferrer">
+              <FaTiktok />
+            </a>
+            <a href="https://www.instagram.com/candritechsystemai?igsh=Y2l1aXBpNnlxOTg4" target="_blank" rel="noreferrer"><FaInstagram /></a>
           </div>
         </div>
 
@@ -32,11 +36,14 @@ function FotterPage() {
           <p>HTML</p>
           <p>CSS</p>
           <p>JavaScript</p>
+          <p>React <span>(Learn)</span></p>
         </div>
 
         <div className="footer-section">
           <h3>Learn</h3>
           <p>Backend Developer</p>
+          <p>React</p>
+          <p>Python</p>
         </div>
 
         <div className="footer-section">
@@ -47,7 +54,7 @@ function FotterPage() {
       </div>
 
       <div className="footer-bottom">
-        <b>© 2024 Candri Panjaitan</b>
+        <b>© 2026 Candri Panjaitan</b>
       </div>
     </footer>
   );
